@@ -1,0 +1,159 @@
+.Sidebar {
+  background-color: #2f3136;
+}
+
+*:focus {
+  border: none !important;
+}
+.ChatMessage__left .Linkify a, .ChatMessage__left a {
+  color: #0096cf;
+  text-decoration: none;
+}
+.ChatMessage__left .Linkify a:hover, .ChatMessage__left a:hover {
+  text-decoration: underline;
+}
+.RoomRosterListItem__name {
+  color: #b9bbbe;
+}
+.RoomRosterListItem__name:hover {
+  color: white;
+  background-color: 
+}
+.RoomRosterContainer, .ContentToggle.ContentToggle--right {
+  background-color: #2f3136;
+  border: none;
+}
+h6.RoomRosterList__title {
+  color: hsla(0,0%,100%,.4);
+}
+.RoomListItemContainer__link--selected, .ConversationListItemContainer__link--selected, .Sidebar__homeLink.Sidebar__homeLink--selected {
+  background-color: rgba(79,84,92,.6) !important;
+  color: white !important;
+}
+a.RoomListItemContainer__link.RoomListItemContainer__link--selected .RoomListItemContainer__title,  .PresenceAndName__nameText, a.ConversationListItemContainer__link.ConversationListItemContainer__link--selected .PresenceAndName.ConversationListItemContainer__presenceAndName .PresenceAndName__text .PresenceAndName__nameText {
+  color: white !important;
+}
+.RoomListItemContainer__link:hover, .ConversationListItemContainer__link:hover, .Sidebar__homeLink:hover,.RoomListItemContainer__title:hover, .PresenceAndName__nameText:hover {
+  background-color: #36393f !important;
+  color: white !important;
+}
+.RoomListItemContainer__title, .PresenceAndName__nameText  {
+  color: #909199 !important;
+}
+.UnreadBadge {
+  background-color: #f04747;
+}
+.RoomListItemContainer__closeIcon:hover, .ConversationList__allConversations:hover {
+  color: white;
+  border-color: white;
+}
+.ChatContainer__top {
+  border-color: #25282c;
+}
+
+.LayoutRoute__main, .ChatMessageList__messageContainer, .ChatMessage, .ChatMessageDateSeparator, .ChatMessage__content, .ChatMessage__selectableText, .ChatNewMessageSeparator.ChatMessage__nonCopyable {
+  background-color: #36393f !important;
+  color: #dcddde;
+}
+.ChatMessage__sender, .PresenceAndName__nameText,.PresenceAndName__presenceCircle {
+  color: white;
+}
+.ChatMessageDateSeparator__date {
+  color: #dcddde;
+}
+.ChatMessageDateSeparator:after, .ChatMessageDateSeparator:before {
+  background-color: #474a4f;
+}
+.ChatMessageDateSeparator {
+  position: relative;
+  color: rgba(153,170,181,.5);
+}
+.ChatMessageDateSeparator__date {
+  color: rgba(153,170,181,.5);
+}
+.ChatInput {
+  border: none;
+  border-top: 1px solid hsla(0,0%,100%,.06);
+}
+.ChatMessage--sentByCurrentUser .ChatMessage__left {
+  border: none;
+}
+.ChatNewMessageSeparator__text {
+  color: rgba(240,71,71,.8) !important;
+}
+.ChatNewMessageSeparator:after, .ChatNewMessageSeparator:before {
+  background-color: rgba(240,71,71,.8) !important;
+}
+.AtMention {
+    background-color: rgba(114,137,218,.1);
+    color: #7289da;
+}
+.AtMention__Messageable:hover {
+  background-color: rgba(114,137,218,.7);
+  color: #fff;
+}
+.ChatInput__elements, .ChatInput__attachBtn,
+.ChatInput__emojiPicker {
+  background-color: rgba(114,118,125,.3);
+  border: none;
+}
+.ChatMessageList__messagesWrapper--shortReadReceipt .ChatMessage__right {
+  margin: auto;
+}
+.ChatMessage__time {
+  color: #484c52;
+  font-size: .84em;
+  white-space: nowrap;
+  height: 100%;
+}
+.ChatMessage__time:hover {
+  color: #dcddde !important;
+}
+
+.ChatMessage__content {
+  flex-direction: row-reverse;
+}
+
+.Icon {
+  color: white !important;
+}
+.ContentToggle.ContentToggle--right {
+  display: none;
+}
+.RoomRosterContainer::-webkit-scrollbar { width: 0 !important }
+
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-clip: padding-box;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 3px;
+      background-color: transparent;
+    border-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #2f3136;
+    border: 3px solid #36393f;
+    border-radius: 7px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #202225;
+  border-color: #36393f;
+      background-clip: padding-box;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 3px;
+}
